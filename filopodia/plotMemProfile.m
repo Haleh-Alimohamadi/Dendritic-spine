@@ -29,7 +29,7 @@
 %       yTickLabelOn - turns the y ticks label on (1) and off (0)
 
 
-function plotMemProfileArea(Sol, t, R0, coatArea, actArea, barArea, xLim, yLim, plotTitle, dash, varargin)
+function plotMemProfile(Sol, t, R0, coatArea, actArea, barArea, xLim, yLim, plotTitle, dash, varargin)
 
 %figure        % create a new figure
     
