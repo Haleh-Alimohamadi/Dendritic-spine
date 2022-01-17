@@ -58,7 +58,7 @@ actArea = [0 aF];
 plotTitle = sprintf('fn1 = %0.3f pN/um^2, fn2 = %0.3f pN/um^2, Dm = %0.4f mum^{-1}', f*10^6/(2*pi*R0^2*aF), (f+fn*2*pi*R0^2)*10^6/(2*pi*R0^2*a0),C0*1000);
 xLim = [-sqrt(2*alpha)*R0 sqrt(2*alpha)*R0];
 yLim = [0 3000];
-plotMemProfileArea(Sol, t, R0, coatArea, coatArea2, actArea, [], xLim, yLim, plotTitle, 0)
+plotMemProfile(Sol, t, R0, coatArea, coatArea2, actArea, [], xLim, yLim, plotTitle, 0)
 
 
 %%Define the variables
